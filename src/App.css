@@ -1,0 +1,57 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+}
+h1{
+    color: brown;
+}
+.reg{
+    width: 20rem;
+    text-align: center;
+    display: block;
+    padding: 30px 2px;
+    border-radius: 10px;
+    background-color: rgba(51, 38, 228, 0.685);
+    box-shadow: 2px 2px 20px black;
+}
+.home{
+    
+    text-align: center;
+}
+.home > a{
+    background-color: black;
+    padding: 8px 40px 8px 40px;
+    
+}
+.home > a:hover{
+    background-color: blue;
+    color: black;
+}
+.hbtn{
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+}
+.reg > input{
+    width: 82%;
+    margin: 13px;
+    padding: 10px;
+}
+input{
+    border-radius: 10px 0px;
+    outline: none;
+    border-color: blueviolet;
+}
+.reg > button{
+    padding: 6px 50px;
+    border-radius: 20px;
+    border-color: blueviolet;
+}
+button:hover{
+    box-shadow: 1px 1px 10px black;
+}
+
