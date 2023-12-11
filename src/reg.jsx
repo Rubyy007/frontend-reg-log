@@ -25,7 +25,7 @@ const handleSubmit = async (e)=>{
 try{
 const res = await axios(
 {
-    url : 'regi-login.vercel.app/user/register',
+    url : 'https://back-end-reg-log.vercel.app/user/register',
     method : 'POST',
     headers : {
         'Content-Type': 'application/json',
