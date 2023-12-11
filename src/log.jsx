@@ -22,7 +22,7 @@ function log() {
 try{
     const res = await axios(
         {
-            url: 'http://localhost:3007/user/login',
+            url: 'regi-login.vercel.app/user/login',
             method: 'POST',
             mode: 'no-cors',
             headers: {
